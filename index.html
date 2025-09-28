@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Шапка сайта -->
     <header class="header">
         <div class="container">
             <div class="header-content">
@@ -31,7 +30,6 @@
 
     <main class="main-content">
         <div class="container content-wrapper">
-            <!-- Таблица (будет первой на мобильных) -->
             <section class="table-section" id="table-section">
                 <h2>Таблица языков программирования</h2>
                 <table class="styled-table">
@@ -90,7 +88,6 @@
                 </table>
             </section>
 
-            <!-- Список ссылок (будет вторым на мобильных) -->
             <section class="links-section" id="links">
                 <h1>Ссылки</h1>
                 <ol>
@@ -137,7 +134,6 @@
                 </ol>
             </section>
 
-            <!-- Форма -->
             <section class="form-section" id="form-section">
                 <h2>Форма</h2>
                 <form action="#" method="post">
@@ -206,7 +202,6 @@
         </div>
     </main>
 
-    <!-- Подвал сайта -->
     <footer class="footer" id="footer">
         <div class="container">
             <p>&copy; 2024 Сергей Синица. Лабораторная работа по веб-разработке.</p>
@@ -214,7 +209,6 @@
     </footer>
 
     <script>
-        // Простая обработка формы
         document.querySelector('form').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('Форма отправлена! (Это демонстрация, данные никуда не отправляются)');
