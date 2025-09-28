@@ -1,4 +1,3 @@
-/* CSS переменные для удобства управления цветами */
 :root {
     --primary-blue: #2563eb;
     --light-blue: #dbeafe;
@@ -10,7 +9,6 @@
     --text-light: #64748b;
 }
 
-/* MOBILE FIRST - базовые стили для мобильных устройств */
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +25,6 @@ body {
     flex-direction: column;
 }
 
-/* Контейнеры */
 .container {
     width: 100%;
     max-width: 960px;
@@ -35,7 +32,6 @@ body {
     padding: 0 15px;
 }
 
-/* Шапка сайта */
 .header {
     background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
     color: var(--white);
@@ -73,7 +69,6 @@ body {
     font-weight: 300;
 }
 
-/* Навигация - вертикальная на мобильных */
 .navigation {
     display: flex;
     flex-direction: column;
@@ -94,7 +89,6 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Основное содержимое */
 .main-content {
     flex: 1;
     padding: 20px 0;
@@ -106,7 +100,6 @@ body {
     gap: 30px;
 }
 
-/* Порядок элементов для мобильных: таблица первая */
 .table-section {
     order: 1;
 }
@@ -119,7 +112,6 @@ body {
     order: 3;
 }
 
-/* Стили для таблицы */
 .styled-table {
     width: 100%;
     border-collapse: collapse;
@@ -155,7 +147,6 @@ body {
     background: var(--light-blue);
 }
 
-/* Стили для списка ссылок */
 .links-section ol {
     list-style-position: inside;
 }
@@ -179,7 +170,6 @@ body {
     text-decoration: underline;
 }
 
-/* Стили для формы */
 .form-section {
     background: linear-gradient(135deg, var(--light-blue) 0%, var(--white) 100%);
     padding: 25px;
@@ -255,7 +245,6 @@ legend {
     box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
 }
 
-/* Подвал сайта */
 .footer {
     background: var(--text-dark);
     color: var(--white);
@@ -264,7 +253,6 @@ legend {
     width: 100%;
 }
 
-/* Стили для изображений в ссылках */
 .links-section img {
     max-width: 100%;
     height: auto;
@@ -272,9 +260,6 @@ legend {
     margin: 10px 0;
 }
 
-/* MEDIA QUERIES для планшетов и десктопов */
-
-/* Планшеты (768px и выше) */
 @media (min-width: 768px) {
     .container {
         padding: 0 20px;
@@ -313,7 +298,6 @@ legend {
     }
 }
 
-/* Десктопы (1024px и выше) */
 @media (min-width: 1024px) {
     .content-wrapper {
         gap: 40px;
@@ -333,7 +317,6 @@ legend {
     }
 }
 
-/* Дополнительные улучшения для очень больших экранов */
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
